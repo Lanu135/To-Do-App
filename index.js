@@ -6,6 +6,8 @@ const ul = document.getElementById('ul')
 
 const openTasks = []
 
+//TODO: use local storage!!!
+
 addTaskBtn.addEventListener('click', () => {
   if (addTaskElement.value === '') {
     alert('Please enter a task')
@@ -16,6 +18,7 @@ addTaskBtn.addEventListener('click', () => {
   }
 })
 
+//TODO: convert into forEach
 // adds and removes tasks from the DOM
 const manageTasks = () => {
   const li = document.createElement('li')
